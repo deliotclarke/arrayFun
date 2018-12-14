@@ -1,0 +1,6 @@
+// arrayFun - using .push(), .pop(), .shift(), .unshift()
+
+var arrayOne;
+var arrayTwo;
+var arrayThree;
+var complexArray;
