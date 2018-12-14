@@ -1,6 +1,12 @@
-// arrayFun - using .push(), .pop(), .shift(), .unshift()
+// arrayFun - using .push(), .pop(), .shift(), .unshift(), 
+// arrayFun - using a reusable funtion() to ask for input from user
+// can I store all three arrays in complexArray?
 
 var arrayOne;
 var arrayTwo;
 var arrayThree;
 var complexArray;
+
+
+funtion userGuess;
+// ^eventually turn into a user prompt
