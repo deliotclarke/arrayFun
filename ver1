@@ -1,12 +1,25 @@
 // arrayFun - using .push(), .pop(), .shift(), .unshift(), 
 // arrayFun - using a reusable funtion() to ask for input from user
-// can I store all three arrays in complexArray?
+// can I store all threearrays in complexArray?
 
 var arrayOne;
 var arrayTwo;
 var arrayThree;
 var complexArray;
+var hiddenBallsArray; //to store the randomized numbers for the user to guess
 
 
-funtion userGuess;
+funtion userGuess() {
+  var userInput = "";
+  var outputCorrect;
+  var outputIncorrect;
+  var outputFinal;
+  var correctAnswer = hiddenBallsArray;
+  
+  console.log("What's your guess??");
+  if (typeof userInput != correctAnswer){
+  outputCorrect += " is correct!! You win!"
+  }
+  }
+  
 // ^eventually turn into a user prompt
